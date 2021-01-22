@@ -1,10 +1,10 @@
-arrUnsorted = [3, 5, 7, 3, 4, 2, 1]
+arrUnsorted = [x for x in range(10**3, 0, -1)]
 
 
 def bubble_sort(arr):
     """
     Алгоритм пробегается по списку и сравнивает соседние элементы
-    :param arr: саисок, который мы хотим отсортировать
+    :param arr: список, который мы хотим отсортировать
     """
     for i in range(len(arr)):
         for j in range(i + 1, len(arr)):
